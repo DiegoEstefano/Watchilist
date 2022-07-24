@@ -3,4 +3,4 @@ Crie sua lista de filmes que deseja assistir e mova para lista de já assistidos
 Projeto recriado do canal Matt The Dev no youtube.
 
 [Clique aqui para acessar
-](https://watchilist.vercel.app/))
+](https://watchilist.vercel.app/)
