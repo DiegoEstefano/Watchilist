@@ -1,6 +1,6 @@
 # Watchlist
-Crie sua lista de filmes que deseja assistir e mova para lista de já assistidos utilizando para armazenamento dos dados em localstorage.
-Projeto recriado do canal Matt The Dev no youtube.
+Projeto feito em React que consome a API do TMDB: Crie sua lista de filmes que deseja assistir e mova para lista de já assistidos utilizando localstorage para armazenamento dos dados. 
+Em processo de desenvolvimento.
 
 [Clique aqui para acessar
 ](https://watchlist-rho.vercel.app/)
