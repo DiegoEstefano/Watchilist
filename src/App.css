@@ -73,10 +73,19 @@ input:focus {
 }
 
 /* Header Styles */
+
 header {
   background-color: var(--primary);
   border-radius: 3px;
+
 }
+
+.text{
+  text-align: center;
+  margin: 0 0 1rem 0;
+}
+
+
 
 header .inner-content {
   display: flex;
@@ -193,6 +202,7 @@ header .nav-links li:last-child {
   align-items: center;
   justify-content: space-between;
   margin-bottom: 30px;
+  
 }
 
 .count-pill {
@@ -306,16 +316,17 @@ header .nav-links li:last-child {
 
   .btn {
     line-height: 0.9rem;
-    width: 8rem;
+    width: 12rem;
     text-align: center;
     hover: none;
   }
 
   i .fa-fw .far .fa-eye {
-    visibility: visible;
+    visibility: hidden;
+    opacity: 0;
   }
 
   .movie-card .inner-card-controls {
-    opacity: 0.9;
+    opacity: 0;
   }
 }
