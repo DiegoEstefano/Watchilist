@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Header } from "./components/Header";
+import { Home } from "./components/Home";
 import { Watchlist } from "./components/Watchlist";
 import { Watched } from "./components/Watched";
 import { Add } from "./components/Add";
@@ -17,6 +18,9 @@ function App() {
 
         <Switch>
           <Route exact path="/">
+            <Home />
+          </Route>
+          <Route path="/Watchlist">
             <Watchlist />
           </Route>
           <Route path="/add">
@@ -32,3 +36,4 @@ function App() {
 }
 
 export default App;
+
