@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import React from "react";
 import { MovieCard } from "./MovieCard";
 
-
 export const Home = () => {
   const [topMovies, setTopMovies] = useState([]);
 
@@ -22,8 +21,8 @@ export const Home = () => {
   return (
     <div className="movie-page">
       <div className="container">
-        <div className="header">
-          <h1 className="heading">Home</h1>
+        <div className="text">
+          <h1 className="heading">Top Movies</h1>
         </div>
 
         {topMovies.length > 0 ? (
